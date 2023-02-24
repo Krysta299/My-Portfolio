@@ -13,13 +13,22 @@
     Visited Color (Teal): #008080
     */
 
-    body { background-color: #FFEFD5;
-        color: #8B4513;
-        all: list-style-type;
-        -webkit-text-decoration: font-family 'Montserrat', sans-serif;
-                text-decoration: font-family 'Montserrat', sans-serif; 
-        font-family: 'Source Serif Pro', serif; text-align: center;
-    }
+:root {--PapayaWhip: #FFEFD5;
+        --SaddleBrown: #8B4513;
+        --LightGray: #d3d3d3; 
+        --font-weight: 700;
+        --padding: 20px;
+        --grid-gap: 20px;
+        --font-size: 22px;
+     }
+ 
+body { background-color: var(--PapayaWhip);
+         color: var(--SaddleBrown);
+         all: list-style-type;
+         text-decoration: font-family 'Montserrat', sans-serif; 
+         font-family: 'Source Serif Pro', serif; text-align: center;
+     }
+
 h1 {font-size: 70px;
     font-weight: 7; 
     font-weight: 700; 
@@ -104,6 +113,11 @@ button:hover, button:focus{
 .navigation-list li{display: inline-block;
         margin-left: 15px;} 
 
+ul.no-bullets {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            }
 
 @supports (display: grid){
 .grid{display: -ms-grid;display: grid;

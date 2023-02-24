@@ -99,51 +99,18 @@ nav {color:#A0522D}
                     padding: 20px; 
                     border-bottom-width: 2px; 
                     border-bottom-color:  solid black;}
-        .work-grid{display: grid;
-            grid-template-columns: 1fr 1fr;
-            grid-gap: 20px;
-            margin: 0;}
-        .work-grid__item{background-color: lightgray;
-            width: auto;
-            min-height: auto;
-            margin: 0;}    
-        @supports (display: grid){
-        .work-grid{display: grid;
-        grid-template-columns: 1fr 1fr;
-        grid-gap: 20px;
-        margin: 0;}
-         }
-        @media all and (max-width: 500px) {
-         .grid{grid-template-columns: 1fr;
-               grid-gap: 10px}
-         .grid__item:last-child{
-               grid-column: auto / auto;
-               grid-row: auto / auto;}
-         h1{font-size: 22px;}
-            }   
-        @media all and (min-width: 500px) and (max-width: 750px){
-        .grid{ grid-template-columns: 1fr 1fr;
-               grid-gap: 10px;}
-        .grid__item:last-child{
-               grid-column: auto / auto;
-               grid-row: auto / auto;}
-        h1{ font-size: 22px;}
-            }
-        .navigation-list{list-style-type: none; text-align: right;}
-        .navigation-list li{display: inline-block; margin-left: 15px;}
+        
+        
+        
+        
+       
+        
 
     
     
    
    
 
-    body {background-color: #FFEFD5;}
-    nav {color:#A0522D}
+  
    
-    button:hover, button:focus{cursor: pointer;opacity: 0.8;} 
-
-    button {color:#FFE4B5}
-    button:visited {color: #A0522D;}
-    button {background-color: #A0522D;} 
-    button:hover {text-decoration: underline; cursor: pointer}
-
+    

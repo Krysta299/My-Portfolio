@@ -21,7 +21,8 @@ body { background-color: var(--PapayaWhip);
         text-decoration: font-family 'Montserrat', sans-serif; 
         font-family: 'Source Serif Pro', serif; text-align: center;
     }
-h1 {font-size: 70px;
+    
+h1 {font-size: 22px;
     font-weight: 7; 
     font-weight: var(--font-weight); 
     text-decoration: 'Source Serif Pro', serif;
@@ -33,6 +34,8 @@ h3 {font-size: 30px;
     font-weight: var(--font-weight); 
     }
 p {text-decoration: 'Source Serif Pro', serif;}
+
+nav {color:#A0522D}
 
 a{color: var(--SaddleBrown);
     }
@@ -79,7 +82,8 @@ button:hover, button:focus{
             width: 100%;
             padding: var(--padding);
             border-bottom-width: 2px;
-            box-align: left;}
+            box-align: left;
+            border-bottom-color:  solid black;}
             
 
 .page-header__item{flex: 0 1 200px;
@@ -95,8 +99,12 @@ button:hover, button:focus{
     text-align: right;}
 
 .navigation-list li{display: inline-block;
-        margin-left: 15px;} 
+            margin-left: 15px;} 
 
+ul.no-bullets {list-style-type: none;
+            margin: 0;
+            padding: 0;
+              }
 
 @supports (display: grid){
 .grid{display: grid;
@@ -185,6 +193,9 @@ button:hover, button:focus{
     transition-property: opacity;
 }
 
+button {background-color: #A0522D;}
+button {color:#FFE4B5}
+button:visited {color: #A0522D;}
 button:hover {text-decoration: underline; cursor: pointer};
 button:focus {cursor: pointer;opacity: 0.8;};
 .button:hover,
