@@ -253,67 +253,6 @@ button:focus {cursor: pointer;opacity: 0.8;};
     }
 }
     
-@-webkit-keyframes cloud-move {
-    from {
-        -webkit-transform: translate(0, 50px);
-                transform: translate(0, 50px);
-    }
-    to {
 
-        -webkit-transform: translate(200px, 50px);
 
-                transform: translate(200px, 50px);
-    }
-}
-    
-@keyframes cloud-move {
-    from {
-        -webkit-transform: translate(0, 50px);
-                transform: translate(0, 50px);
-    }
-    to {
 
-        -webkit-transform: translate(200px, 50px);
-
-                transform: translate(200px, 50px);
-    }
-}
-
-.sun{
-    -webkit-animation: 4s color-change infinite alternate linear;
-            animation: 4s color-change infinite alternate linear;
-    }
-
-.cloud-front {
-    -webkit-animation: 30s clould-move infinite alternate linear;
-            animation: 30s clould-move infinite alternate linear;
-}
-
-@-webkit-keyframes cloud-move-reverse {
-    from {
-        -webkit-transform: translate(446px, 48px);
-                transform: translate(446px, 48px);
-    }
-    to {
-       -webkit-transform: translate(100px, 48px);
-               transform: translate(100px, 48px);  
-
-    }
-}
-
-@keyframes cloud-move-reverse {
-    from {
-        -webkit-transform: translate(446px, 48px);
-                transform: translate(446px, 48px);
-    }
-    to {
-       -webkit-transform: translate(100px, 48px);
-               transform: translate(100px, 48px);  
-
-    }
-}
-
-.cloud-front {
-    -webkit-animation: 34s cloud-move-reverse infinite alternate linear;
-            animation: 34s cloud-move-reverse infinite alternate linear;
-}
